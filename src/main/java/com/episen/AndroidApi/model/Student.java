@@ -4,7 +4,6 @@ import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 @Data               //getter setter
 @AllArgsConstructor //Constructor with fields
@@ -51,8 +50,8 @@ public class Student {
     int id;
     String age;
     String email;
-    String first_name;
-    String last_name;
+    String firstName;
+    String lastName;
     boolean redoublant;
     String group;
     String gender;
@@ -97,8 +96,8 @@ public class Student {
                 "id='" + id + '\'' +
                 ", age='" + age + '\'' +
                 ", email='" + email + '\'' +
-                ", first_name='" + first_name + '\'' +
-                ", last_name='" + last_name + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 ", redoublant='" + redoublant + '\'' +
                 ", group='" + group + '\'' +
                 '}';
